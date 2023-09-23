@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            align-self:start;
+            border-collapse: collapse;
+        }
+        table,th,td{
+          
+            border:1px solid #333;
+           
+            text-align:center;
+            vertical-align: center;
+            padding:10px;
+        }
+        tr{
+            /* display: flex; */
+            text-align:left;
+            /* justify-content: space-evenly;
+            align-items: center; 
+            */
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th id="id">ID</th>
+                <th id="name">Name</th>
+                <th id="gender">Gender</th>
+                <th id="class">Class</th>
+                <th id="marks">Marks</th>
+                <th id="passing">Passing</th>
+                <th id="email">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <button onClick="Add()">Add Data</button>
+    <button onClick="sortAtoZ()">Sort A to Z</button>
+    <script src="./index.js"></script>
+</body>
+</html>
